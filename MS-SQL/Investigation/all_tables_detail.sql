@@ -1,3 +1,12 @@
+/***************************************************************************************************
+Create Date:        Nov. 29, 2023
+Author:             Robert Moses
+Description:        Investigative Query to pull all tables from sys.tables and analyze various items
+                    such as created date, last modification date, and table size. Useful when first
+                    diving into a new DB and unsure of all the available tables.
+Parameter(s):       NA
+***************************************************************************************************/
+
 select schema_name(tab.schema_id) as schema_name,
        tab.name                   as table_name,
        tab.create_date            as created,
