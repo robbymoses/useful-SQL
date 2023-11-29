@@ -1,0 +1,9 @@
+/***************************************************************************************************
+Create Date:        [currentDateTime]
+Author:             [authorName]
+Description:        [Verbose description of what the query does goes here. Be specific and don't be
+                    afraid to say too much. More is better, than less, every single time. Think about
+                    "what, when, where, how and why" when authoring a description.]
+Parameter(s):       [@param1 - description and usage
+                    @param2 - description and usage]
+***************************************************************************************************/

@@ -1,0 +1,24 @@
+/***************************************************************************************************
+Procedure:          [procedureName]
+Create Date:        [currentDateTime]
+Author:             [authorName
+Description:        [Verbose description of what the query does goes here. Be specific and don't be
+                    afraid to say too much. More is better, than less, every single time. Think about
+                    "what, when, where, how and why" when authoring a description.]
+Called By:          [appName]
+                        [function]
+                    [database.schema.sprocName]
+                    [chronJob]
+Affected table(s):  [database.schema.TableModifiedByProc]
+Used By:           [ Functional Area this is use in, for example, Payroll, Accounting, Finance]
+Parameter(s):       [@param1 - description and usage
+                    @param2 - description and usage]
+Usage:              [EXEC dbo.usp_DoSomeStuff
+                    @param1 = 1,
+                    @param2 = 3,
+                    @param3 = 2]
+****************************************************************************************************
+SUMMARY OF CHANGES
+Date(yyyy-mm-dd)    Author              Comments
+------------------- ------------------- ------------------------------------------------------------
+***************************************************************************************************/
