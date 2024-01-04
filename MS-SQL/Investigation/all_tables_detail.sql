@@ -9,6 +9,7 @@ Parameter(s):       NA
 
 select schema_name(tab.schema_id) as schema_name,
        tab.name                   as table_name,
+       tab.is_tracked_by_cdc      as cdc_enabled,
        tab.create_date            as created,
        tab.modify_date            as last_modified,
        FORMAT(p.rows, 'N')        as num_rows,
