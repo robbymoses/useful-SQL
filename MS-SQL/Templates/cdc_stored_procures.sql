@@ -4,6 +4,8 @@ AS
 /***************************************************************************************************
 This is a template for querying CDC tables when you want to keep track of records that have changed
 since previously run with slight modifications.
+CDC Documentation: 
+    https://learn.microsoft.com/en-us/sql/relational-databases/system-functions/change-data-capture-functions-transact-sql
 
 Procedure:          [procedureName]
 Author:             [Name]
@@ -64,7 +66,7 @@ BEGIN
                         WHERE supports_net_changes = 1
             */
             -- MSSQL will generate these functions on CDC Enablement for the table. For a list of these table names
-            --cdc.fn_cdc_get_all_changes_
+            --cdc.fn_cdc_get_all_changes_[CAPTURE_INSTANCE]
             cdc.fn_cdc_get_net_changes_[CAPTURE_INSTANCE]
             (@from_lsn,
              @to_lsn,
