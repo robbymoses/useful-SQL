@@ -4,6 +4,8 @@ AS
 /***************************************************************************************************
 This is a template for querying CDC tables when you want to keep track of records that have changed
 since previously run with slight modifications.
+CDC Documentation: 
+    https://learn.microsoft.com/en-us/sql/relational-databases/system-functions/change-data-capture-functions-transact-sql
 
 Procedure:          [procedureName]
 Author:             [Name]
