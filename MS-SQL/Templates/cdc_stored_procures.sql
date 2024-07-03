@@ -64,7 +64,7 @@ BEGIN
                         WHERE supports_net_changes = 1
             */
             -- MSSQL will generate these functions on CDC Enablement for the table. For a list of these table names
-            --cdc.fn_cdc_get_all_changes_
+            --cdc.fn_cdc_get_all_changes_[CAPTURE_INSTANCE]
             cdc.fn_cdc_get_net_changes_[CAPTURE_INSTANCE]
             (@from_lsn,
              @to_lsn,
